@@ -1,0 +1,26 @@
+{
+  "name": "simple-routes",
+  "version": "0.0.0",
+  "description": "Calls the function specified in the route map, extracts parameters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtremback/simple-routes.git"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "jehan.tremback@gmail.com <you@example.com>",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/jtremback/simple-routes/issues"
+  },
+  "homepage": "https://github.com/jtremback/simple-routes",
+  "dependencies": {
+    "lodash.pairs": "^2.4.1",
+    "lodash.zip": "^2.4.1"
+  }
+}
