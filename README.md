@@ -5,7 +5,9 @@ Since these routes are in a hashmap, they are not matched in any particular orde
 
 First argument is the routes object, second argument is an options object.
 
-    _this.routes = {
+    var Router = require('simple-routes')
+
+    var routes = {
       '#/': toListView,
       '#/gerbils/:id/edit/': function (params) {
         toEditView(params.id);
@@ -23,4 +25,4 @@ First argument is the routes object, second argument is an options object.
       appendTrailingSlash: true // Whether or not to force all urls to have trailing slash
     }
 
-    new Router(_this.routes, opts);
+    new Router(routes, opts);
